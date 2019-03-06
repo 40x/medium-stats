@@ -1,0 +1,15 @@
+{
+  "name": "git add ",
+  "version": "1.0.0",
+  "description": "Check if we can modify medium stats",
+  "main": "script.js",
+  "scripts": {
+    "start": "node script.js"
+  },
+  "author": "Kashyap Mukkamala",
+  "license": "MIT",
+  "dependencies": {
+    "chrome-launcher": "^0.10.5",
+    "chrome-remote-interface": "^0.27.1"
+  }
+}

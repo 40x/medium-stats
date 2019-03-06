@@ -1,5 +1,5 @@
 {
-  "name": "git add ",
+  "name": "medium-stats",
   "version": "1.0.0",
   "description": "Check if we can modify medium stats",
   "main": "script.js",

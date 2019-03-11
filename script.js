@@ -8,7 +8,7 @@ chromeLauncher
     port: 9222,
     // run in headless mode, for testing, comment out headless mode
     chromeFlags: [
-      '--headless'
+      // '--headless'
     ]
   })
   .then(async chrome => {
@@ -41,6 +41,11 @@ chromeLauncher
       await Page.navigate({
         url: 'https://medium.com/@kashyap.mukkamala/fudging-stats-on-medium-proof-e7cc30baf1d4'
       });
+
+      // opens a new tab instead
+      // await CDP.New({
+      //   url: 'https://medium.com/@kashyap.mukkamala/fudging-stats-on-medium-proof-e7cc30baf1d4'
+      // });
 
       await sleep(3000);
 
